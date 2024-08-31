@@ -1,16 +1,15 @@
 {
-  "name": "wasm-libigl",
+  "name": "jsigl",
   "description": "libigl wasm implementation",
   "version": "0.0.1",
   "author": "Aleksei Kazantsev <develop.kaa@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KaaPex/wasm-libigl"
+    "url": "https://github.com/KaaPex/jsigl"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KaaPex/wasm-libigl/issues"
+    "url": "https://github.com/KaaPex/jsigl/issues"
   },
-  "homepage": "https://github.com/KaaPex/wasm-libigl",
-  "packageManager": "yarn@4.4.1"
+  "homepage": "https://github.com/KaaPex/jsigl"
 }

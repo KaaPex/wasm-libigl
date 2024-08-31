@@ -2,7 +2,7 @@
   "name": "wasm-libigl",
   "description": "libigl wasm implementation",
   "version": "0.0.1",
-  "author": "Aleksey Kazantsev <develop.kaa@gmail.com>",
+  "author": "Aleksei Kazantsev <develop.kaa@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/KaaPex/wasm-libigl"

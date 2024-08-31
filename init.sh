@@ -1,5 +1,7 @@
 echo "updating dependencies..."
+git fetch
 git pull
+echo "updating submodules..."
 git submodule update --recursive --remote
 
 

@@ -17,3 +17,9 @@ cd emsdk
 source ./emsdk_env.sh
 
 cd ..
+
+sudo apt update
+sudo apt-get install curl
+sudo apt install libmpfr-dev
+sudo apt-get install libgmp3-dev
+sudo apt-get install libboost-all-dev

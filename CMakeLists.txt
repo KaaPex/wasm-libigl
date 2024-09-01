@@ -1,7 +1,12 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.30)
 project(jsigl)
 
 list(PREPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+
+# Set CMP0169 policy to OLD
+if(POLICY CMP0169)
+    cmake_policy(SET CMP0169 OLD)
+endif()
 
 # Libigl
 include(libigl)
@@ -50,5 +55,5 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
   OUTPUT_NAME "index"
   SUFFIX ".js"
   CFLAGS "-O3"
-  LINK_FLAGS "-s WASM=1 -s MODULARIZE=1 -s DEMANGLE_SUPPORT=1  --bind"
+  LINK_FLAGS "-s WASM=1 -s ALLOW_MEMORY_GROWTH=1 -s DEMANGLE_SUPPORT=1  --bind"
 )

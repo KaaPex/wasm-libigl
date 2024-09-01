@@ -1,5 +1,3 @@
-#define CGAL_EIGEN3_ENABLED
-
 #include <iostream>
 #include <igl/copyleft/cgal/mesh_boolean.h>
 #include <Eigen/Dense>
